@@ -5,24 +5,6 @@ Segments a retail customer base into distinct, actionable groups based on
 basket size, recency, channel, engagement, satisfaction) using K-Means
 clustering.
 
-## Files
-
-| File | Description |
-|---|---|
-| `Customer_Segmentation_Report.docx` | Full written report — methodology, charts, and business insight per segment. **Start here.** |
-| `Customer_Segmentation_Analysis.ipynb` | Interactive notebook version of the analysis, pre-run with all outputs embedded. Open in Jupyter to explore or re-run. |
-| `segmentation_analysis.py` | Same analysis as a plain Python script (run from the command line). |
-| `generate_data.py` | Generates the synthetic customer dataset (`customer_data.csv`). Only needed if you want to regenerate or modify it. |
-| `customer_data.csv` | Raw input dataset — 1,000 customers, 16 attributes. |
-| `customer_data_segmented.csv` | Same data with each customer's assigned `cluster` (0–4) and PCA coordinates added. |
-| `segment_profile.csv` | Average feature values per segment (the numbers behind the report's summary table). |
-| `01_eda_overview.png` | Spend distribution, category popularity, frequency vs. basket size, loyalty vs. spend. |
-| `02_correlation_heatmap.png` | Correlation between all numeric behavior metrics. |
-| `03_optimal_k_selection.png` | Elbow method + silhouette score used to choose the number of clusters. |
-| `04_pca_cluster_scatter.png` | 2D PCA projection of the 5 customer segments. |
-| `05_segment_radar.png` | Normalized radar chart comparing segment characteristics. |
-| `06_segment_size_revenue.png` | Customers per segment vs. revenue contribution per segment. |
-| `07_category_mix_by_segment.png` | Preferred product category mix within each segment. |
 
 ## The 5 Segments
 
